@@ -26,6 +26,12 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+body{
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -39,7 +45,7 @@ div {
   <form action="" method="post">
     {% csrf_token %}
     <label for="order id">Order Id</label>
-    <input type="text" name="orderid" value="orderid" placeholder="Order Id">
+    <input type="text" name="orderid" placeholder="Order Id">
     <input type="submit" value="Submit">
   </form>
 </div>
